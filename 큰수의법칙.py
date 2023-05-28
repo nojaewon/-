@@ -11,5 +11,5 @@ arr = list(map(int, sys.stdin.readline().rstrip().split()))
 # 2번째 큰 수 * (m // (k+1))
 
 arr.sort(reverse=True)
-print(arr[0] *((m // (k+1))*k + m%(k+1) // k) + arr[1] * (m // (k+1)) )
+print(arr[0] *((m // (k+1))*k + m%(k+1) // k) + arr[1] * (m // (k+1)) ) 
  
