@@ -12,3 +12,4 @@ arr = list(map(int, sys.stdin.readline().rstrip().split()))
 
 arr.sort(reverse=True)
 print(arr[0] *((m // (k+1))*k + m%(k+1) // k) + arr[1] * (m // (k+1)) )
+ 
