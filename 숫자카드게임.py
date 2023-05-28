@@ -17,4 +17,4 @@ for i in range(n):
     if max_value < min_value:
         max_value = min_value
 
-print(max_value)
+print(max_value) 
