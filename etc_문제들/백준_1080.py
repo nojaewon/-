@@ -17,7 +17,6 @@ def solution(n, m):
 
     for i in range(n):
         for j in range(m):
-            if A[i][j] != B[i][j]:
                 if i+2 >= n or j+2 >= m:
                     return -1
                 
